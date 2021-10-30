@@ -1,5 +1,5 @@
 # Property Data Lookup
-A simple web app for displaying property data on any given address!
+A simple web app for displaying prices of Cryptos!
 
 ## Technologies Used
 
