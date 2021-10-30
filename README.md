@@ -20,4 +20,4 @@ A simple web app for displaying prices of Cryptos!
 
 ## Future Enhancements
 
-- Allow the user to "like" and save properties to localstorage
+-Allow the user to view multiple coins at one time
