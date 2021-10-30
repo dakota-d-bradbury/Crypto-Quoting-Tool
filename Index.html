@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script defer src="./script.js"></script>  
+    <title>Crypto Quoting Tool</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Crypto Quoting Tool</h1>
+        <form style="margin-top: 50px;">
+            <label>Coin Name:
+                <input type="text" placeholder="BTC...">
+            </label>
+            <input type="submit" value="Get Quote">
+        </form>
+       
+       
+    </header>
+    <div class="dropdown">
+            <select class="DDM">
+            <option>USD</option>
+            <option>EUR</option>
+            <option>GBP</option>
+          </select>
+    </div>
+    <main>
+        <p id="title">Coin:</p>   
+        <p>Symbol:</p>
+        <p id="symbol"></p>
+        <p>Market Cap:</p>
+        <p id="market_cap"></p>
+        <p>Exchanges:</p>
+        <p id="exchanges"></p>
+       
+       
+
+       
+
+
+
+        <footer>
+            <p>Copyright &copy; All Rights Reserved</p>
+            <p> 2021 Property Data Lookup</p>
+        </footer>
+    </main>
+    
+</body>
+</html>
