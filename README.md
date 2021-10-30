@@ -6,7 +6,7 @@ A simple web app for displaying prices of Cryptos!
 - HTML5
 - CSS3
 - JavaScript/jQuery
-- ATTOM API
+- coinlib.io API
 
 ## Screenshots
 
