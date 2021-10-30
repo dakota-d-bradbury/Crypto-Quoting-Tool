@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Helvetica, cursive;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header, footer {
+    display: flex;
+    align-items: center;
+    height: 3.125rem;
+}
+
+header {
+    background-color: #423f3f;
+    color: #ffffff;
+    box-shadow: 1px 1px 5px 3px #808080;
+    padding-left: 1rem;
+}
+
+footer {
+    justify-content: center;
+}
