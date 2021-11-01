@@ -1,4 +1,4 @@
-# Property Data Lookup
+# Crypto Quoting Tool
 A simple web app for displaying prices of Cryptos!
 
 ## Technologies Used
