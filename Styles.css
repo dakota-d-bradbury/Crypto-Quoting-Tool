@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: black;
+    background-color: grey;
 
    }
    
@@ -34,14 +34,15 @@ body {
     margin: left 200px; ;
     text-align: center;
     line-height: 25px;
+    
   
    }
 
    footer {
-    padding: 715px 20px 50px;
+    padding: 72px 20px 50px;
     text-align: center;
     line-height: 25px;
-    background-color: black;
+    background-color: grey;
     font-size: 18px;
     color: #362f2a;
     
@@ -62,7 +63,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #1D2330
+    background-color: grey;
 
    }
  
