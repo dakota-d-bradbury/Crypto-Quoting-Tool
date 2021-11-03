@@ -10,13 +10,13 @@ A simple web app for displaying prices of Cryptos!
 
 ## Screenshots
 
-![screenshot 1](#)
+![screenshot 1](https://www.icloud.com/iclouddrive/0g21DWOwg8fdQo016oUFTKdSg#Screen_Shot_2021-11-02_at_8.33.46_PM)
 
-![screenshot 2](#)
+![screenshot 2](https://www.icloud.com/iclouddrive/02YZT_-Ab6GGRaZbtDpSo-udg#Screen_Shot_2021-11-02_at_8.34.14_PM)
 
 ## Getting Started
 
-[Click here](#) to see the site live
+[Click here](https://crypo-quoter.netlify.app/) to see the site live
 
 ## Future Enhancements
 
