@@ -16,7 +16,7 @@ A simple web app for displaying prices of Cryptos!
 
 ## Getting Started
 
-[Click here](https://crypo-quoter.netlify.app/) to see the site live
+[Click here](#) to see the site live
 
 ## Future Enhancements
 
