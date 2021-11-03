@@ -13,57 +13,44 @@
 </head>
 <body>
     <header>
-        <h1>Crypto Quoting Tool</h1>
-        <form style="margin-top: 50px;">
-            <label>Coin Name:
-                <input type="text" placeholder="BTC...">
-            </label>
-            <input type="submit" value="Get Quote">
-        </form>
-        <div class="dropdown">
+        <h1>Crypto Quoter! - Quote Your Favorite Cryptocurrencies!</h1>
+    </header>
+    <div id="left-photo">
+        <img src=  https://coinlib.io/static/img/coins/small/btc.png?25799 alt = "BTC Logo" Width 200px >
+        <img src=  https://coinlib.io/static/img/coins/small/etc.png?25799 alt = "ETC Logo" Width 200px >
+        <img src=  https://coinlib.io/static/img/coins/small/doge.png?25799 alt = "doge Logo" Width 200px >
+    </div>  
+    <div id="right-photo">
+        <img src=  https://coinlib.io/static/img/coins/small/etn.png?25799 alt = "ETN Logo" Width 200px >
+        <img src=  https://coinlib.io/static/img/coins/small/btt.png?25799 alt = "btt Logo" Width 200px >
+        <img src=  https://coinlib.io/static/img/coins/small/bts.png?25799 alt = "bts Logo" Width 200px >
+    </div>  
+    <div id="coin-type">
+        <p>Type a Crypto that you would like to quote:</p>
+        <div id="crypto-quote">   
+            <form>
+                <input id="crypto-one" type="text" placeholder="BTC, ETH ... etc">
+                <input id="submit" type="submit" value="Get Quote!">
+            </form>
+        </div> 
+        <p>Choose a currency to receive a quote in:</p>
+        <div id="dropdown">
             <select class="DDM">
             <option>USD</option>
             <option>EUR</option>
             <option>GBP</option>
           </select>
-        </div>  
-       
-    </header>
-   
+        </div> 
+    </div>
     <main>
-        <p id="title">Coin:</p>   
-        <p>Symbol:</p>
-        <p id="symbol"></p>
-        <p>Market Cap:</p>
-        <p id="market_cap"></p>
-        <p>Exchanges:</p>
-        <p id =exchanges></p>
-        <p>First Exchange:</p>
-        <p id="firstExchange"></p>
-        <p>Current Price</p>
-        <p id=firstPrice></p>
-        <p>Second Exchange:</p>
-        <p id="secondExchange"></p>
-        <p>Current Price</p>
-        <p id=secondPrice></p>
-        <p>Third Exchange:</p>
-        <p id="thirdExchange"></p> 
-        <p>Current Price</p>
-        <p id=thirdPrice></p>
-       
-       
-
-       
-
-
-
-       
+    
     </main>
     <footer>
+        
         <p>Powered by 
-            <a href="https://coinlib.io/apidocs">Coinlib API</a>
-        </p>
-        <p>Copyright &copy; All Rights Reserved</p>
+            <a href="https://coinlib.io/apidocs"> Coinlib API</a> </p>
+        <p>Copyright &copy;  All Rights Reserved</p>
+
         <p> 2021 Property Data Lookup</p>
     </footer>
 </body>
