@@ -10,7 +10,7 @@ A simple web app for displaying prices of Cryptos!
 
 ## Screenshots
 
-![screenshot 1](Screen Shot 2021-11-02 at 8.33.46 PM.png)
+![screenshot 1](/Screen Shot 2021-11-02 at 8.33.46 PM.png)
 
 ![screenshot 2](https://github.com/dakota-d-bradbury/Crypto-Quoting-Tool/blob/d080ece7b153c6e3c1f7ec02136f5631786cf8c0/Screen Shot 2021-11-02 at 8.34.14 PM.png)
 
