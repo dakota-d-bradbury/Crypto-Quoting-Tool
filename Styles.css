@@ -1,7 +1,4 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-}
+
 
 body {
     font-family: Helvetica, cursive;
@@ -9,21 +6,66 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-}
-
-header, footer {
+    background-color: #1D2330
+   }
+   
+  /* header, footer {
     display: flex;
     align-items: center;
     height: 3.125rem;
-}
-
-header {
-    background-color: #423f3f;
-    color: #ffffff;
+   }*/
+   
+   header {
+    background-color: black ;
+    color: blue;
     box-shadow: 1px 1px 5px 3px #808080;
-    padding-left: 1rem;
-}
-
-footer {
+    padding-left: -1rem;
     justify-content: center;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 5rem;
+   }
+   
+   main{
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 8fr 8fr 1fr;
+    background-color: black;
+    color:rgb(123, 243, 26);
+   }
+   footer {
+    padding: 5px 20px 50px;
+    text-align: center;
+    line-height: 25px;
+    background-color: black;
+    font-size: 18px;
+    color: #362f2a;
+   }
+   
+   #coin-type,#crypto-quote{
+    height: 5rem;
+    color: rgb(123, 243, 26);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+    background-color: #1D2330
+   }
+   #left-photos{
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+     display: grid;
+     background-color: #1D2330
+  
+
+   }
+   #right-photos{
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+     display: grid;
+     background-color: #1D2330
+  
+   }
