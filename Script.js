@@ -41,13 +41,7 @@ function render() {
    `<h3>Coin Name: ${coinData.name}</p></h3>
    <p>Symbol: ${coinData.symbol}</p>
    <p>Market Cap: ${coinData.market_cap} ${coinData.markets[0].symbol}</p>
-    <p>First Exchange: ${coinData.markets[0].exchanges[0].name}</p>
+    <p>Exchange: ${coinData.markets[0].exchanges[0].name}</p>
     <p>Current Price: ${coinData.markets[0].exchanges[0].price} ${coinData.markets[0].symbol}</p>
-    <p>Second Exchange: ${coinData.markets[0].exchanges[1].name}</p>
-    <p>Current Price: ${coinData.markets[0].exchanges[1].price} ${coinData.markets[0].symbol}</p>
-    <p>Third Exchange: ${coinData.markets[0].exchanges[2].name}</p>
-    <p>Current Price: ${coinData.markets[0].exchanges[2].price} ${coinData.markets[0].symbol}</p>
- 
-   
 `);
 }; 
